@@ -1,0 +1,6 @@
+g++ -c -w -O2 -m32 -fPIC -fexceptions \
+-DIL_STD -fno-strict-aliasing \
+-I. \
+/Users/lh/LumingC/util/Andrzej/mesh_base.c \
+/Users/lh/LumingC/util/Andrzej/mesh.c \
+/Users/lh/LumingC/util/Andrzej/complexs.c 
